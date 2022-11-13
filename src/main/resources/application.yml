@@ -1,0 +1,14 @@
+spring:
+  rsocket:
+    server:
+      port: 7002
+  r2dbc:
+    url: r2dbc:pool:mysql://127.0.0.1:3307/chatting_account
+    username: root
+    password: pass
+  sql:
+    init:
+      mode: never
+
+server:
+  port: 9091
